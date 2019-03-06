@@ -1,4 +1,5 @@
-import { Repository, FindManyOptions, FindOneOptions, UpdateResult, FindConditions, SaveOptions, DeleteResult, RemoveOptions, DeepPartial } from 'typeorm';
+import { Repository, FindManyOptions, FindOneOptions, UpdateResult,
+    FindConditions, SaveOptions, DeleteResult, RemoveOptions, DeepPartial } from 'typeorm';
 import { QueryDeepPartialEntity } from 'typeorm/query-builder/QueryPartialEntity';
 
 export abstract class CrudService<T> {

@@ -8,8 +8,8 @@ describe('Person Controller', () => {
   let service: PersonService;
 
   beforeEach(async () => {
-    service = new PersonService(new MockRepository<Person>())
-    controller = new PersonController(service)
+    service = new PersonService(new MockRepository<Person>());
+    controller = new PersonController(service);
   });
 
   it('should be defined', () => {

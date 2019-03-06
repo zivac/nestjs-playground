@@ -9,8 +9,7 @@ import { Person } from './entities/person.entity';
 
 @Module({
     imports: [
-        TypeOrmModule.forFeature([Cat]),
-        TypeOrmModule.forFeature([Person]),
+        TypeOrmModule.forFeature([Cat, Person]),
     ],
     controllers: [
         CatsController,
